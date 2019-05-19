@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lucasgbd/automated-video-creation/issues"
   },
-  "homepage": "https://github.com/lucasgbd/automated-video-creation#readme"
+  "homepage": "https://github.com/lucasgbd/automated-video-creation#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
 }
