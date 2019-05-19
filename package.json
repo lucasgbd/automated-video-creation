@@ -1,0 +1,19 @@
+{
+  "name": "automated-video-creation",
+  "version": "1.0.0",
+  "description": "Open source for automated video creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasgbd/automated-video-creation.git"
+  },
+  "author": "Lucas Moreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasgbd/automated-video-creation/issues"
+  },
+  "homepage": "https://github.com/lucasgbd/automated-video-creation#readme"
+}
