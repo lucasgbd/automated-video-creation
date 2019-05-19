@@ -1,17 +1,22 @@
 const readline = require('readline-sync');
+const robots = {
+    text: require('./robots/text.js')
+}
 
-function start() {
+async function start() {
     const content = {};
 
     content.searchTerm = AskAndReturnSearchTerm();
     content.prefix = AskAndReturnPrefix();
+
+    await robots.text(content);
 
     function AskAndReturnSearchTerm() {
         return readline.question('Type a Wikipeadia search term: ');
     }
 
     function AskAndReturnPrefix() {
-        const prefixes = ['Who is', 'What is', 'The history of'];
+        const prefixes = ['Who is', 'What is', 'The history of', 'Where is'];
         const selectedPrefixIndex = readline.keyInSelect(prefixes, 'Choone one option: ');
         const selectedPrefixText = prefixes[selectedPrefixIndex]
 
