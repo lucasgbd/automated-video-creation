@@ -27,3 +27,13 @@ File: `watson-nlu.json`
   "url": "https://gateway-lon.watsonplatform.net/natural-language-understanding/api"
 }
 ```
+
+## Google search
+
+File `google-search.json`
+
+```
+{
+    "apiKey": "<KEY>"
+}
+```
