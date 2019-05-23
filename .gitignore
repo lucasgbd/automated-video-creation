@@ -69,3 +69,5 @@ content/*.png
 content/*.jpg
 content/*.mov
 content/*.js
+
+templates/
